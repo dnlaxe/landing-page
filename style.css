@@ -157,30 +157,31 @@ p {
     margin: 20px 0 30px 0;
 }
 
-.square {
-    height: 250px;
-    width: 250px;
-    background-color: white;
-    border-radius: 12px;
-    margin-bottom: 5px;
-    border-style: solid;
-    border-color: #1F2937;
-  }
-
-  .text2 {
+.text2 {
     font-size: 26px;
-  }
+}
 
-  .text {
+.text {
     font-size: 20px;
-  }
+}
 
-  a:hover {
+a:hover {
     color: grey;
     cursor: pointer;
-  }
+}
 
-  button:hover {
+button:hover {
     cursor: pointer;
     background-color: #5191f5;
-  }
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #1F2937;
+    border-width: 4px;
+    margin-bottom: 5px;
+}
