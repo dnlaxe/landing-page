@@ -1,0 +1,165 @@
+
+* {
+    font-family: "Figtree", serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 200px 0px 200px;
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 200px 50px 200px;
+    gap: 100px;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, p {
+    margin: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 300px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info_box {
+    width: 200px;
+}
+
+.sign-up {
+    padding: 50px 200px;
+}
+
+.sign-up-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 50px 400px;
+    font-size: 36px;
+    color: #1F2937
+}
+
+.writing {
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.attributed_to {
+    text-align: right;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+a, p {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 12px;
+    font-size: 20px;
+    padding: 10px 50px;
+}
+
+.sign-up-div {
+    background-color: #3882F6;
+    color: white;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.call-to-action {
+    font-size: 36px;
+}
+
+.gray-box {
+    background-color: grey;
+    width: 1000px;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+}
+
+p {
+    margin: 10px 0 20px 0;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 12px;
+    margin-bottom: 5px;
+    border-style: solid;
+  }
