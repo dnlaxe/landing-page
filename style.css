@@ -20,14 +20,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 200px 0px 200px;
+    padding: 20px 300px 0px 300px;
 }
 
 .header-bottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 200px 50px 200px;
+    padding: 50px 300px 80px 300px;
     gap: 100px;
 }
 
@@ -53,7 +53,7 @@ h1, p {
 .info {
     display: flex;
     flex-direction: column;
-    padding: 30px 300px;
+    padding: 50px 400px;
     text-align: center;
 }
 
@@ -88,7 +88,7 @@ h1, p {
 
 .quote {
     background-color: #E5E7EB;
-    padding: 50px 400px;
+    padding: 50px 500px;
     font-size: 36px;
     color: #1F2937
 }
@@ -103,18 +103,18 @@ h1, p {
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 32px;
     color: #F9FAF8;
 }
 
 .main-text {
-    font-size: 48px;
+    font-size: 56px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
 a, p {
-    font-size: 18px;
+    font-size: 24px;
     color: #E5E7EB
 }
 
@@ -135,7 +135,7 @@ button {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .call-to-action {
@@ -152,7 +152,7 @@ button {
 }
 
 p {
-    margin: 10px 0 20px 0;
+    margin: 10px 0 25px 0;
 }
 
 .square {
@@ -162,4 +162,5 @@ p {
     border-radius: 12px;
     margin-bottom: 5px;
     border-style: solid;
+    border-color: #1F2937;
   }
